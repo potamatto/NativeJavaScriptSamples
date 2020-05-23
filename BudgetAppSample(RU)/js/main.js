@@ -104,18 +104,6 @@ startChecking.addEventListener('click', function () {
         }
     });
 
-    chooseSum.addEventListener('input', function () {
-        if (appData.savings == true) {
-            let sum = +chooseSum.value,
-                percent = +choosePercent.value;
-
-            appData.monthIncome = sum / 100 / 12 * percent;
-            appData.yearIncome = sum / 100 * percent;
-
-            monthSavingsValue.textContent = appData.monthIncome.toFixed(1);
-            yearSavingsValue.textContent = appData.yearIncome.toFixed(1);
-        }
-    });
 
     choosePercent.addEventListener('input', function () {
         if (appData.savings == true) {
