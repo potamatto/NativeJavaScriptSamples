@@ -11,4 +11,4 @@ function hideTabContent() - hides all tabs at page loading, if any element of co
 function showTabContent() - shows tab content by the changing of class "hide" to class "show" of current element
 
 event "tabsParent" launches function (function(e)) where target is e.target.
-If there is target (place where user was clicked) and target class list contains class "info-header-tab", this function gets index (i) from all "tabs" collection and changing class to "show" from "hide" for element with i-index
+If there is target (place where user was clicked) and target class list contains class "info-header-tab", this function gets index (i) from all "tabs" collection and changing class to "show" from "hide" for element with i-index, then breaks
