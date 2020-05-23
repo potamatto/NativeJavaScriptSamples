@@ -133,8 +133,6 @@ startChecking.addEventListener('click', function () {
 
 });
 
-
-
 //объект "appData"
 let appData = {
     budget: money, //из вопроса пользователю
