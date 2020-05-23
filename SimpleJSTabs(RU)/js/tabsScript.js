@@ -16,6 +16,7 @@ window.addEventListener('DOMContentLoaded', function () { //событие ср�
         
         hideTabContent(1); //скрыть все табы кроме (1)-ой
 
+        //как аргумент b передаётся индекс (i) из цикла ниже
         function showTabContent(b){
             if (tabsContent[b].classList.contains('hide')) { //если рассматриваемый элемент содержит класс 'hide' то: 
                 tabsContent[b].classList.remove('hide'); // удалить класс 'hide'
