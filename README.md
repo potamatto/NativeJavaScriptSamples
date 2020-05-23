@@ -1,2 +1,2 @@
-This repo contains examples with Nativ JS. 
-Ivan Petrichenko JS Udemy course.
+This repo contains examples with Native JS. 
+Ivan Petrichenko JS Udemy lessons.
